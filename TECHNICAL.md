@@ -1,7 +1,7 @@
 # Technical document — Who has the ball?
 
 **Team:** hustlehard905  
-**Members:** _[name 1]_, _[name 2]_, _[name 3]_  
+**Members:** _Jalen Chambers_, _Charles Zamora_, _Raymond Garcia_  
 **Repository:** https://github.com/Latchkeykid17/hustlehard905-mtah  
 **Submission file:** hustlehard905.csv
 
