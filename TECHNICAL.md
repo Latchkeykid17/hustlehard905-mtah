@@ -1,5 +1,10 @@
 # Technical document — Who has the ball?
 
+**Team:** hustlehard905  
+**Members:** _[name 1]_, _[name 2]_, _[name 3]_  
+**Repository:** https://github.com/Latchkeykid17/hustlehard905-mtah  
+**Submission file:** hustlehard905.csv
+
 ## 1. Approach
 
 Possession is decided in two layers: **is the ball alive?** then **which team owns it while it is?**
@@ -8,7 +13,7 @@ two small gradient-boosting models trained on *algorithmically generated* labels
 this game is used anywhere, and the public ground truth was used only to confirm that the pipeline
 is wired correctly (labels, frame alignment, halves) — never to choose a parameter or a design.
 
-Pipeline (`src/pipeline.py`):
+Pipeline (`pipeline.py`):
 
 1. **Load** the tactical ATD (positions in metres on a 105.3 × 68.0 pitch) and the graded halves
    published in DATA.md.
